@@ -1,0 +1,112 @@
+*{
+  transition: all 1s;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 60px;
+  
+  text-align:center;
+  padding-left:249px;
+ margin-bottom:-80px;
+}
+h2{
+  font-family: 'Cabin Sketch', cursive;
+  cursor:pointer;
+}
+h2:hover{
+  color:black;
+}
+.score:hover,.play:hover,.A:hover{
+  
+  box-shadow: 0px 0px 0px 1px #0074D9 inset, 0px 0px 0px 2px white inset,0px 0px 0px 2px white inset,0px 0px 0px 2px white inset;
+}
+body{
+  background:khaki;
+}
+.mainboard{
+  background:;
+  height:200px;
+  
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+
+  
+}
+.board{
+  width: 250px;
+  height: 200px;
+  border:25px solid #000000;
+  
+  opacity:.8;
+  position:relative;
+  color:white;
+  
+  }
+.board:hover{
+  border:20px solid #1a0000 ;
+  opacity:1;
+  cursor:pointer;
+  
+}
+.red{
+ 
+  background:red;
+  border-radius:0 100% 0 0;
+  top:118px;
+  left:420px;
+  
+}
+.green{
+  background:green;
+  border-radius:100% 0 0 0;
+  top:-82px;
+  left:171px;
+}
+.blue{
+  background:blue;
+  border-radius:0 0  100% 0;
+  left:420px;
+}
+.yellow{
+  background:yellow;
+   left:170px;
+   top:-200px;
+  border-radius:0 0  0 100% ;
+}
+.screen{
+  position:relative;
+  background:black;
+  left:185px;
+  border:1px solid black;
+  top:-490px;
+  height:100px;
+  width: 500px;
+  border-radius:1px;
+  opacity:1;
+}
+
+.score,.play,.A{
+  border:5px solid #1a0000;
+  left:-5px;
+   width: 250px;
+  height: 200px;
+  margin-left:15px;
+  margin-top:0px;
+  background:maroon;
+  color:red;
+  width: 150px;
+  height: 100%;
+  text-align:center;
+  border-radius:17%;
+  padding:8px;
+  font-size:30px;
+  letter-spacing:4px;
+}
+
+.highlight{
+ border:20px solid #1a0000 ;
+  opacity:1;
+}
